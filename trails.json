@@ -1,0 +1,153 @@
+body {
+    font-family: Cambria;
+    background-color: #f4f8f2;
+    color: #263d2b;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #2e5939;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero h1 span {
+    color: #b7d7a8;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #2e5939;
+}
+
+.eyebrow {
+    color: #6b916c;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.trail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.trail-card {
+    background-color: #ffffff;
+    border: 1px solid #c8dbc5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.trail-card h3 {
+    color: #2e5939;
+}
+
+.park-name {
+    color: #718071;
+}
+
+.card-top,
+.card-details,
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trail-icon {
+    font-size: 25px;
+}
+
+.distance {
+    color: #2e5939;
+    font-weight: bold;
+}
+
+.difficulty {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.easy {
+    background-color: #d9ead3;
+    color: #387044;
+}
+
+.moderate {
+    background-color: #fff0c2;
+    color: #80621d;
+}
+
+.hard {
+    background-color: #f4d6d2;
+    color: #963f36;
+}
+
+/* Save buttons */
+.save-btn {
+    background-color: #ffffff;
+    color: #2e5939;
+    border: 1px solid #2e5939;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: #d9ead3;
+}
+
+.save-btn.saved {
+    background-color: #2e5939;
+    color: white;
+}
+
+/* Saved trails section */
+.saved-section {
+    background-color: #e5efdf;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.saved-count,
+.trail-count {
+    background-color: #d9ead3;
+    color: #2e5939;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.empty-message {
+    text-align: center;
+    background-color: white;
+    color: #718071;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2e5939;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
